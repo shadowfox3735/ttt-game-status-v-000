@@ -47,7 +47,9 @@ def over?(board)
 end
 
 def winner(board)
+  if won?(board)
   token = won?(board)
   win = board[token[0]]
   win
+end
 end
