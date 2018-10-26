@@ -22,7 +22,7 @@ def won?(board)
    F = FALSE
   end
 end
-return F
+F
 end
 
 def full?(board)
