@@ -19,7 +19,7 @@ def won?(board)
   if position_1 == position_2 && position_1 == position_3 && position_1 != " "
     return win_combination
   else
-    FALSE
+   return FALSE
   end
 end
 end
